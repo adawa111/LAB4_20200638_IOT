@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#86E3E1"
+    android:background="#699BD8"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="TELE CLIMA"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,5 +34,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.377"
         app:srcCompat="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creado por: 20200638"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:onClick="ingresar"
+        android:text="INGRESAR"
+        android:textColorLink="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
